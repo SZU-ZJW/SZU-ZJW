@@ -4,10 +4,11 @@
 - **Python Version:** 3.9
 - **Required Environment:**
   - `tqdm`
-
 ## 2. Run the Code
+The dataset used in this article has been placed in the `dataset` folder.
+## 3. Run the Code
 
-### 2.1 `main.py`
+### 3.1 `main.py`
 To run this code with 120 (k, k_b) pairs, modify the data corresponding to the following variables in `main.py`:
 
 ```python
@@ -18,7 +19,7 @@ save_path = 'result_Ionosphere.txt'    # where to save your calculations
 ```
 The results will be saved in a txt file, you can change the name of 'save_path' to achieve it.
 
-### 2.2 `test.py`
+### 3.2 `test.py`
 You can run `test.py` directly to get the results for a specific dataset for a specific (k, k_b) pair by modifying the following
 
 ```python
